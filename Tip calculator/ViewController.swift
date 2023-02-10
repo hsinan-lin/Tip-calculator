@@ -103,9 +103,9 @@ class ViewController: UIViewController {
             costPerPerson = roundTo2Decimal(number: costPerPerson)
             
             //Update labels with calculated values
-            tipCostLabel.text = "Tip:\t \(String((tipCost)))"
-            totalCostLabel.text = "Total cost:\t \(String(totalCost))"
-            costPerPersonLabel.text = "Cost per person:\t   \(String(costPerPerson))"
+            tipCostLabel.text = "Tip:\t $\(String((tipCost)))"
+            totalCostLabel.text = "Total cost:\t $\(String(totalCost))"
+            costPerPersonLabel.text = "Cost per person:\t   $\(String(costPerPerson))"
         }else{
             //print("Text fileds are empty!")
         }

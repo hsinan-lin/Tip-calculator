@@ -24,10 +24,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="XOK-sX-TL2" userLabel="Textbox Stack View">
-                                <rect key="frame" x="57" y="209" width="300" height="100"/>
+                                <rect key="frame" x="57" y="209" width="300" height="125"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NI7-L0-amO">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="42.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="55"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                         <connections>
@@ -35,7 +35,7 @@
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of persons" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsN-F1-Uss">
-                                        <rect key="frame" x="0.0" y="57.5" width="300" height="42.5"/>
+                                        <rect key="frame" x="0.0" y="70" width="300" height="55"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                         <connections>
@@ -45,7 +45,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="mnF-o1-MoX"/>
-                                    <constraint firstAttribute="height" constant="100" id="nty-Po-r6z"/>
+                                    <constraint firstAttribute="height" constant="125" id="nty-Po-r6z"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AxX-o6-Cas" userLabel="Percent Stack View">
